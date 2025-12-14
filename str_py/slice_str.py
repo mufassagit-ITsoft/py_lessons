@@ -38,7 +38,7 @@ else:
     print("")
 
 # optimized code version
-char_num = 3
+char_num = int(input("Enter the character limit (qty): "))
 
 if len(str_py) > char_num*2:
     new_str = str_py[:char_num] + str_py[len(str_py)-char_num:]
