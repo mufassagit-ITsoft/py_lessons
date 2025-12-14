@@ -30,3 +30,9 @@ last three characters of the original string into one new string,
 this method should work. 
 '''
 
+# alternative code
+if len(str_py) >= 6:
+    sliced_str = str_py[:3] + "" + str_py[len(str_py)-3:]
+    print(sliced_str)
+else:
+    print("")
