@@ -15,7 +15,7 @@ If the string < 6 characters, the code should return "".
 
 str_py = input("Enter the string: ")
 if len(str_py) >= 6:
-    sliced_str = str_py[:3] + "" + str_py[-3::]
+    sliced_str = str_py[:3] + str_py[-3::]
     print(sliced_str)
 else:
     print("")
@@ -36,3 +36,14 @@ if len(str_py) >= 6:
     print(sliced_str)
 else:
     print("")
+
+# optimized code version
+char_num = 3
+
+if len(str_py) > char_num*2:
+    new_str = str_py[:char_num] + str_py[len(str_py)-char_num:]
+    print(new_str)
+else:
+    print("")
+
+# This code is preferable, as this is less error prone
