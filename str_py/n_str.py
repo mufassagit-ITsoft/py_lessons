@@ -11,8 +11,9 @@ n = 2
 output = "Waes"
 '''
 
-str_py = "Software"
-ind = 8
+str_py = input("Enter the word: ")
+print(f"The length of {str_py} is {len(str_py)}")
+ind = int(input("Enter the index from the word to omit: "))
 
 if (len(str_py) == 0) or (ind >= len(str_py)):
     print(str_py)
@@ -22,6 +23,3 @@ else:
         if char != ind:
             new_str += str_py[char]
     print(new_str)
-
-
-
