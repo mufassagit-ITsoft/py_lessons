@@ -9,9 +9,14 @@ isdecimal() is appropriate for this exercise as it will yield True for
 alphnumeric strings and the opposite for strings. 
 '''
 
+import re
+
 str_py = input("Enter a word: ")
 
 bool_str = str_py.isdecimal()
 
 print(bool_str)
+
+
+
 
