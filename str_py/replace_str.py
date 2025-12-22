@@ -23,6 +23,6 @@ for char in range(len(py_str)):
 if py_str != new_str:
     print(new_str)
 else:
-    print(f"No such letters exist in the word {py_str}")
+    print(f"No such character or letters exist in the word or sentence for {py_str}")
     
 
