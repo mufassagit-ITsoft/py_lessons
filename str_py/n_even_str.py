@@ -8,6 +8,7 @@ str_py = "Wrestling"
 new_str = ""
 
 for char in range(len(str_py)):
-    if char%2 != 0:
+    if char%2 == 0:
         new_str += str_py[char]
 print(new_str)
+
