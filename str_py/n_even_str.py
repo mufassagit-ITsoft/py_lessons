@@ -14,4 +14,3 @@ print(new_str)
 
 # For removal of substrings from odd indices, instead of "!=", use
 # "=="" instead.
-
