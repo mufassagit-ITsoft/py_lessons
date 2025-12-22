@@ -17,4 +17,12 @@ repl_str = input("Enter a replacement character for the new word: ")
 for char in range(len(py_str)):
     if target_str in py_str:
         new_str = py_str.replace(target_str, repl_str)
-print(new_str)
+    else:
+        new_str = py_str
+
+if py_str != new_str:
+    print(new_str)
+else:
+    print(f"No such letters exist in the word {py_str}")
+    
+
