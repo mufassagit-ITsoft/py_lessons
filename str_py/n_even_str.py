@@ -4,7 +4,7 @@ In this exercise, the point is to remove a substring from even
 indices, that result in the remaining substring as the new string.
 '''
 
-str_py = "Wrestling"
+str_py = input("Enter a word: ")
 new_str = ""
 
 for char in range(len(str_py)):
