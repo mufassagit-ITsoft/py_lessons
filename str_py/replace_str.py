@@ -20,9 +20,19 @@ for char in range(len(py_str)):
     else:
         new_str = py_str
 
+
+# alternative code
+new_str1 = ""
+
+for char in py_str:
+    if char == target_str:
+        new_str1 += repl_str
+    else:
+        new_str1 += char
+
+print(f"new string : {new_str1}")
+
 if py_str != new_str:
     print(new_str)
 else:
     print(f"No such character or letters exist in the word or sentence for {py_str}")
-    
-
