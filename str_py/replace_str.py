@@ -10,9 +10,9 @@ replace = "i"
 new_word = "sebstring"
 '''
 
-py_str = "Klingons"
-target_str = "n"
-repl_str = "a"
+py_str = input("Enter a word: ")
+target_str = input("Enter a target character to replace: ")
+repl_str = input("Enter a replacement character for the new word: ")
 
 for char in range(len(py_str)):
     if target_str in py_str:
