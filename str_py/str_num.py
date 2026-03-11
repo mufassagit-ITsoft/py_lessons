@@ -9,14 +9,12 @@ isdecimal() is appropriate for this exercise as it will yield True for
 alphnumeric strings and the opposite for strings. 
 '''
 
-import re
-
 str_py = input("Enter a word: ")
-
 bool_str = str_py.isdecimal()
 
 print(bool_str)
 
+# Can be used as a validator for if the value in a numeric only value
+# is only numeric and not a string or a sentence, just raw number.
 
-
-
+     

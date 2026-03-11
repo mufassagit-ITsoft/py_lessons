@@ -20,7 +20,6 @@ for char in range(len(py_str)):
     else:
         new_str = py_str
 
-
 # alternative code
 new_str1 = ""
 
