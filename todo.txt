@@ -1,3 +1,7 @@
 def_index.py:
     - Need to figure out how to get "None" out of the print statement.
     - Same for first_last.py
+
+def_smallval.py and def_secondval.py: 
+    -Need to figure out why the program is only giving "None" as a result.
+    
